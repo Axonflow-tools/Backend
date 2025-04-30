@@ -1,3 +1,4 @@
+using AxonFlow_Backend;
 using AxonFlow_Backend.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -67,7 +68,7 @@ app.UseSwagger();
 
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api testing endpoint");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Axonflow Backend v1");
 });
 
 app.UseHttpsRedirection();
