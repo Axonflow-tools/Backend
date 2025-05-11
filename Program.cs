@@ -81,7 +81,7 @@ app.UseSwagger();
 
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Axonflow Backend v1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
 });
 
 app.UseHttpsRedirection();
