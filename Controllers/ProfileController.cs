@@ -51,7 +51,7 @@ public class ProfileController : ControllerBase
         }
 
         // 3. Update the username
-        user.UserName = request.NewName; // Or add a Name property if you extended IdentityUser
+        user.UserName = request.NewName;
         var result = await _userManager.UpdateAsync(user);
 
         if (!result.Succeeded)
