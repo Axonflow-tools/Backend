@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace AxonFlow_Backend.Controllers;
+namespace Backend.Controllers;
 
 [ApiController]
 [Route("api/v1/[controller]")]
